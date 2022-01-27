@@ -1,4 +1,4 @@
 FROM openjdk
 WORKDIR /app
 COPY * /app/
-CMD ["java", "HelloWorld"]
+CMD ["java", "-jar", "rms-limit-email.jar"]
